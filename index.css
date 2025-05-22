@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'DM Sans', sans-serif;
+}
+body {
+    background-color: rgb(13, 36, 100);
+}
+body img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    padding: 20px;
+    cursor: pointer;
+}
+body img:hover {
+    transform: scale(1.2);
+    transition: .4s;
+}
+.main {
+    background-color: rgb(255, 255, 255);
+    height: 550px;
+    width: 800px;
+    margin: 35px auto;
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 0 0 10px black;
+}
+.main h1 {
+    text-align: center;
+    padding-top: 20px;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 7px grey;
+    color: rgb(13, 36, 100);
+}
+.main .scoreboard {
+    display: block;
+    height: 100px;
+    width: 400px;
+    font-size: 18px;
+    margin: 40px auto;
+    margin-bottom: 20px;
+}
+.scoreboard .one{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+.scoreboard .one p {
+    border: 2px solid rgb(13, 36, 100);
+    background-color: rgb(13, 36, 100);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+.scoreboard .two p {
+    text-align: center;
+    font-weight: bold;
+}
+.choice {
+    padding: 10px;
+    width: 500px;
+    margin: 10px auto;
+}
+.choice h3 {
+    text-align: center;
+}
+.choice img {
+    margin-left: 20px;
+}
+.result {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 30px;
+    margin-top: -10px;
+}
